@@ -146,3 +146,28 @@ body {
 .bg-lightgreen {
   background: rgba(71, 125, 17, 0.15);
 }
+
+/* services section */
+.services-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+
+.services-container .services-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 86px 0px;
+}
+
+/* common serve description class */
+.services-content .services-description {
+  margin-top: 24px;
+}
+
+/* hot deal section */
+
