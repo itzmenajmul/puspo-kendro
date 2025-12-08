@@ -89,7 +89,7 @@ body {
   font-size: 40px;
   font-weight: 800;
   line-height: 48px;
-  letter-spacing: 0%;
+  letter-spacing: normal;
   text-align: center;
 }
 
@@ -268,4 +268,69 @@ body {
   max-width: 342px;
 }
 
-/* style for  */
+/* style for latest deal */
+.get-deal-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 128px;
+  padding: 128px 0px;
+  background-image: url("../images/latest-deals-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.get-deal-container .section-title {
+  color: rgba(39, 39, 39, 1);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 122px 0px 16px 0px;
+}
+
+.get-deal-container .section-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.input-container {
+  text-align: center;
+}
+
+.input-container input[type="email"] {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 1);
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: normal;
+  border: none;
+  outline: none;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  padding: 23px;
+  margin: 48px 16px 121px 0px;
+}
+
+.input-container input[type="submit"] {
+  border-radius: 8px;
+  width: 150px;
+  height: 64px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: normal;
+  background-color: #e55473;
+  border: none;
+}
+
+/*  */
