@@ -333,4 +333,45 @@ body {
   border: none;
 }
 
-/*  */
+/* style for footer */
+.footer-section {
+  max-width: 1922px;
+  margin: 0 auto;
+  background-color: rgba(17, 16, 16, 1);
+}
+
+.footer-content .section-title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 128px 0 24px 0;
+}
+
+.footer-content .title-flower {
+  color: #e55473;
+}
+.footer-content .title-shop {
+  color: #ffffff;
+}
+
+.footer-content .section-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 0 649px;
+}
+
+.footer-content .section-copyright-title {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 32px 0 128px 0;
+}
